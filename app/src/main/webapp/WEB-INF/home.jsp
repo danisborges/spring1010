@@ -3,10 +3,16 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Home</title>
+        <title>Soma</title>
     </head>
     <body>
-        <h1>Olá Spring!!!</h1>
+        <form action="/soma" method="post">
+            <lable> Num A</lable>
+            <input name="numA" type="number" />
+            <lable> Num B</lable>
+            <input name="numB" type="number" />
+            <button type="submit">Somar</button>
+        </form>
     </body>
 </html>
 
